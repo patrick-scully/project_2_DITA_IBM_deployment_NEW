@@ -17,22 +17,22 @@
     </prolog>
     <refbody>
         <section audience="expert" importance="high" props="prop1">
-           
+            
             <p> The general design guidelines for IBM StoredIQ are as follows:
                 <ul>
                     <li>For data servers of the type DataServer - Classic:
-                    <sl>
-                        <sli>- One data server for up to 30 TBs of data (which can vary based on the number of volumes, objects
-                            per volume, and object types).</sli>
-                        <sli>- Up to 500 volumes per data server.</sli>
+                        <sl>
+                            <sli>- One data server for up to 30 TBs of data (which can vary based on the number of volumes, objects
+                                per volume, and object types).</sli>
+                            <sli>- Up to 500 volumes per data server.</sli>
                             <sli>
-                            <ph><b>Tip:</b> When you're sizing an environment that includes Sharepoint data sources, keep in mind that
-                                volumes must be defined at Sharepoint site collection level, not the Sharepoint server level.
-                            </ph>
+                                <ph><b>Tip:</b> When you're sizing an environment that includes Sharepoint data sources, keep in mind that
+                                    volumes must be defined at Sharepoint site collection level, not the Sharepoint server level.
+                                </ph>
                             </sli>
                             <sli>- Up to 150 million objects per data server.</sli>
-                        
-                  </sl>
+                            
+                        </sl>
                     </li>
                     <li>One gateway per 50 data servers.</li>
                     <li>One application server.</li>
@@ -91,11 +91,11 @@
                         with latency greater than 10 ms and bandwidth of at least 2+ Mbps are acceptable.
                     </li>
                 </ul>
-               
+                
             </p>
         </section>
         <section>
-           
+            
             <p><b>VMware requirements</b></p>
             <ul>
                 <li>VMware vSphere v5.0 and fix packs or v6.0 and fix packs.</li>
@@ -107,7 +107,7 @@
             </ul>
         </section>
         
-       
+        
         
         
         

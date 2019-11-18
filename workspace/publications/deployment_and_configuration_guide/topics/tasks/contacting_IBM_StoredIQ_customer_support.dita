@@ -19,11 +19,14 @@
     </prolog>
     <taskbody>
         <context>
-            <p>1-866-227-2068</p>
+            <ul>
+                <li>1-866-227-2068</li>
+            </ul>
+            
             <p>Or, see the Contact IBM web site at <xref href="https://www.ibm.com/contact/us/en/" format="html" scope="external">http://www.ibm.com/contact/us/</xref>.</p>
             <p><b>IBM Knowledge Center</b></p>
             <p>The IBM StoredIQ documentation is available in <xref href="https://www.ibm.com/support/knowledgecenter/" format="html" scope="external">IBM Knowledge Center</xref>.</p>
-     
+            
             <p><b>Contacting IBM</b>
             </p>
             <p>For general inquiries, call 800-IBM-4YOU (800-426-4968). To contact IBM customer service in the
@@ -32,7 +35,7 @@
                 <xref href="https://www.ibm.com/contact/us/en/" format="html" scope="external">http://www.ibm.com/contact/us/</xref>.
             </p>
         </context>
-       
+        
         
     </taskbody>
 </task>

@@ -16,18 +16,18 @@
         </critdates>
     </prolog>
     <refbody> 
-      <section>
-         <ul>
-             <li><i>IBM StoredIQ Overview Guide</i></li>
-             <li><i>IBM StoredIQ Deployment and Configuration Guide</i></li>
-             <li><i>IBM StoredIQ Data Server Administration Guide</i></li>
-             <li><i>IBM StoredIQ Administrator Administration Guide</i></li>
-             <li><i>IBM StoredIQ Data Workbench User Guide</i></li>
-             <li><i>IBM StoredIQ Policy Manager User Guide</i></li>
-             <li><i>IBM StoredIQ Insights User Guide</i></li>
-             <li><i>IBM StoredIQ Integration Guide</i>
-             </li>
-         </ul>
-      </section>
+        <section>
+            <ul>
+                <li><i>IBM StoredIQ Overview Guide</i></li>
+                <li><i>IBM StoredIQ Deployment and Configuration Guide</i></li>
+                <li><i>IBM StoredIQ Data Server Administration Guide</i></li>
+                <li><i>IBM StoredIQ Administrator Administration Guide</i></li>
+                <li><i>IBM StoredIQ Data Workbench User Guide</i></li>
+                <li><i>IBM StoredIQ Policy Manager User Guide</i></li>
+                <li><i>IBM StoredIQ Insights User Guide</i></li>
+                <li><i>IBM StoredIQ Integration Guide</i>
+                </li>
+            </ul>
+        </section>
     </refbody>
 </reference>

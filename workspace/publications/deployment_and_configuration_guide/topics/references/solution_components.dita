@@ -17,19 +17,22 @@
         </critdates>
     </prolog>
     <refbody>
-    <section>
-        <title>Gateway</title>
-        <p>The gateway communicates between the data servers and the application stack. The application stack
-            polls the gateway for information about the data on the data servers. The data servers push the
-            information to the gateway.</p>
-    </section>
+        <section>
+            <title>Gateway</title>
+            <p>The gateway communicates between the data servers and the application stack. The application stack
+                polls the gateway for information about the data on the data servers. The data servers push the
+                information to the gateway.</p>
+            
+            
+        </section>
         <section>
             <title>Data servers</title>
             <p>A data server obtains the data from supported data sources and indexes it. By
                 indexing this data, you gain information about unstructured data such as file size,
                 file data types, file owners.</p>
-            <p>  The data server pushes the information about volumes and indexes to the gateway so it can be
-                communicated to the application stack. Multiple data servers feed into a single gateway..</p>
+            <p>The data server pushes the information about volumes and indexes to the
+                gateway so it can be communicated to the application stack. Multiple data servers
+                feed into a single gateway.</p>
             <p>Data servers can be categorized in two types: DataServer - Classic and DataServer -
                 Distributed. A data server of the type DataServer - Classic uses the embedded
                 PostgreSQL database for storing the index. With a data server of the type DataServer
@@ -37,16 +40,19 @@
                 type also provide better performance in search queries. They can manage much larger
                 amounts of data than data servers of the type DataServer - Classic, thus making the
                 IBM StoredIQ deployments more scalable..</p>
-            <p>    You can have both types of data servers in your IBM StoredIQ deployment..</p>
-              <p>  In addition to completing standard administrative tasks, administrators can deploy the IBM StoredIQ
+            <p>You can have both types of data servers in your IBM StoredIQ deployment.</p>
+            <p>In addition to completing standard administrative tasks, administrators can deploy the IBM StoredIQ
                 Desktop Data Collector and index desktops from the data server.</p>
+            
+            
         </section>
         <section>
             <title>Application stack</title>
             <p>The application stack provides the user interface for the IBM StoredIQ Administrator, IBM StoredIQ
                 Data Workbench, IBM StoredIQ Insights, and the IBM StoredIQ Policy Manager products.</p>
-                <p>The synchronization feature for integration with a governance catalog is also part of the application
+            <p>The synchronization feature for integration with a governance catalog is also part of the application
                 stack.</p>
+            
         </section>
         <section>
             <title>Elasticsearch cluster</title>
@@ -55,6 +61,8 @@
                 automatically across the nodes in the cluster. Indexing and queries are load-balanced across all
                 nodes. Nodes can be added dynamically without downtime and the indexing process can use these
                 newly added nodes without further setup.</p>
+            
+            
         </section>
     </refbody>
 </reference>

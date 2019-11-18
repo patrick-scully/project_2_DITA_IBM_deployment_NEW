@@ -18,28 +18,28 @@
     </prolog>
     <refbody> 
         
-    
+        
         <section audience="novice" importance="low" >
             <title>Application stack</title>
             
-           <ul>
-               <li>vCPU: 2</li>
-               <li>Memory: 4 GB</li>
-               <li>Storage:
-                   <sl>
-                       <sli> - Primary disk (vmdisk1): 21 GB</sli>
-                       <sli> - Data disk (vmdisk2): 10 GB</sli>
-                   </sl>
-          </li>
-           </ul>
+            <ul>
+                <li>vCPU: 2</li>
+                <li>Memory: 4 GB</li>
+                <li>Storage:
+                    <sl>
+                        <sli> - Primary disk (vmdisk1): 21 GB</sli>
+                        <sli> - Data disk (vmdisk2): 10 GB</sli>
+                    </sl>
+                </li>
+            </ul>
         </section>
         <section audience="novice expert" importance="low" >
             <title>Gateway server</title>
-                     <ul>
+            <ul>
                 <li>vCPU: 4</li>
                 <li>Memory: 8 GB</li>
                 <li>Storage:
-                
+                    
                     <sl>
                         <sli> - Primary disk (vmdisk1): 100 GB</sli>
                         <sli> - Data disk (vmdisk2): 75 GB</sli>
@@ -52,35 +52,35 @@
         </section>
         
         <section audience="expert" importance="high" props="prop1">
-           
+            
             <title>DataServer - Classic</title>
-                   
+            
             <ul>
                 <li><p>vCPU: 4</p>
                     <p> Even though increasing the number of vCPUs increases performance, the actual bene³ts depend on
-                    whether the specific host is oversubscribed or not.</p></li>
+                        whether the specific host is oversubscribed or not.</p></li>
                 <li><p>Memory: 16 GB</p>
                     <p> While the minimum value works under light-load condition, as the load increases, the data server
-                    quickly starts using swap space. For high load situations, increasing RAM beyond 16 GB can bene³t
-                    performance. Monitoring swap usage can provide insight.</p></li>
+                        quickly starts using swap space. For high load situations, increasing RAM beyond 16 GB can bene³t
+                        performance. Monitoring swap usage can provide insight.</p></li>
                 <li><p>Storage:</p>
                     <ul>
-                       
-                    
-                    
+                        
+                        
+                        
                         <li><p>Primary disk (vmdisk1, SCSI 0:0): </p>
                             <p>Default is 150 GB This virtual disk
-                    has an associated VMDK that contains the IBM StoredIQ operating code. Do not
-                    change its size. </p> <hazardstatement>
-                        <messagepanel id="delete_primary_disk">
-                            <typeofhazard>If you delete the primary disk, you delete the operating
-                                system, and the IBM StoredIQ software; the virtual machine might
-                                need to be scrapped.</typeofhazard>
-                            <howtoavoid/>
-                        </messagepanel>
-                    </hazardstatement>
-                        <p></p></li>
-                      
+                                has an associated VMDK that contains the IBM StoredIQ operating code. Do not
+                                change its size. </p> <hazardstatement>
+                                    <messagepanel id="delete_primary_disk">
+                                        <typeofhazard>If you delete the primary disk, you delete the operating
+                                            system, and the IBM StoredIQ software; the virtual machine might
+                                            need to be scrapped.</typeofhazard>
+                                        <howtoavoid/>
+                                    </messagepanel>
+                                </hazardstatement>
+                            <p></p></li>
+                        
                         <li><p> Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</p><p> This virtual disk can be
                             resized according to expectations on the amount of harvest data to be
                             stored. For purposes of estimation, the index storage requirement for
@@ -92,7 +92,7 @@
                             prudent. The minimum swap size is equal to the amount of RAM configured
                             for the virtual machine. For best performance under load, place this
                             disk on the highest speed data store available to the host.</li>
-                  
+                        
                     </ul>
                 </li>
             </ul>
@@ -110,7 +110,7 @@
                 data server under maximum workload, at least 650 IOPS generally delivers acceptable performance.
                 In the situations where there is a high load on the system, the IOPS that is used can reach up to 7000
                 with main write operations.</p>
-              
+            
         </section>
         <section audience="novice" importance="low" >
             <title>DataServer - Distributed</title>

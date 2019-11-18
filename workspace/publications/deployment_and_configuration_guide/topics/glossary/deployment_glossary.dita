@@ -14,9 +14,9 @@
             <revised modified="18/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
         </critdates>
     </prolog>
-  
     
-   
+    
+    
     
     <glossentry id="Application_stack">
         <glossterm>Application stack</glossterm>
@@ -113,7 +113,7 @@
     
     
     
-  
+    
     
     <glossentry id="IBM_StoredIQ_Insights">
         <glossterm>Connector API SDK</glossterm>

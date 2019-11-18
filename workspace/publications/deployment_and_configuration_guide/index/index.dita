@@ -5,8 +5,8 @@
     <shortdesc>Index</shortdesc>
     <prolog>
         
-       
-           
+        
+        
         
         
         
@@ -53,8 +53,8 @@
                 </indexterm>
                 
                 <indexterm>
-                     Indexing
-               </indexterm>
+                    Indexing
+                </indexterm>
                 
                 <indexterm>
                     Reports
@@ -64,7 +64,7 @@
                 </indexterm>
                 
                 <indexterm>
-                        Query Analysis Report
+                    Query Analysis Report
                 </indexterm>
                 
                 <indexterm>
@@ -75,7 +75,7 @@
                 </indexterm>
                 
                 <indexterm>
-                        Auto-classification
+                    Auto-classification
                 </indexterm>
                 
                 <indexterm>
@@ -86,7 +86,7 @@
                 </indexterm>
                 
                 <indexterm>
-                        Analysis logic
+                    Analysis logic
                 </indexterm>
                 
                 <indexterm>
@@ -97,7 +97,7 @@
                 </indexterm>
                 
                 <indexterm>
-                        Lucene
+                    Lucene
                 </indexterm>
                 
                 <!-- regular index terms -->

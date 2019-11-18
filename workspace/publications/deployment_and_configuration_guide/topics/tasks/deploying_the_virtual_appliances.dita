@@ -17,7 +17,7 @@
     <taskbody>
         
         <context>
-        
+            
             <p>Deploy OVAs for the gateway, the data server, and the application stack, preferably
                 in this order. If an Elasticsearch cluster is also being deployed, those OVAs must
                 be deployed first. </p>
@@ -33,9 +33,9 @@
                 The default setup is a three-node cluster. Each Elasticsearch node requires a separate OVA deployment.</p>
             <p>  The number of data server OVAs deployed depends on the number of data servers needed. Each data
                 server requires a separate OVA deployment.</p>
-        
-                  
-               
+            
+            
+            
         </context>
         
         <steps>
@@ -58,13 +58,13 @@
                     <substep>
                         <cmd>Within the <b>Review details</b> page, review the OVF template details.
                             
-                          
-                           
+                            
+                            
                         </cmd>
                         <info>These storage requirements are critical and will be used to select a data store during deployment.
                             Click <b>Next</b> to proceed</info>
                         
-                        </substep>
+                    </substep>
                     <substep>
                         <cmd>Within the <b>Select name and folder</b> page, enter a name for the deployed template or use the default
                             name. Click <b>Next</b>.</cmd>
@@ -76,10 +76,10 @@
                     <substep>
                         <cmd>Within the <b>Select storage</b> page, select a data store on which to store the deployed OVF template files. Click <b>Next</b>.</cmd>
                     </substep>
-                   <substep>
-                       <cmd>Within the <b>Disk Format</b> list, select the disk format to be deployed. Note that although <b>Thin Provision</b> saves disk space, it can negatively affect performance. If possible, select 
-                           <b>Thick Provision Lazy Zeroed</b> . Click <b>Next</b>.</cmd>
-                   </substep>
+                    <substep>
+                        <cmd>Within the <b>Disk Format</b> list, select the disk format to be deployed. Note that although <b>Thin Provision</b> saves disk space, it can negatively affect performance. If possible, select 
+                            <b>Thick Provision Lazy Zeroed</b> . Click <b>Next</b>.</cmd>
+                    </substep>
                     <substep>
                         <cmd>Within the <b>Network Mapping</b>, map the network to the appropriate network. Click <b>Next</b>.</cmd>
                     </substep>
@@ -88,8 +88,8 @@
                             Deploy OVF Template.
                             
                             
-                           
-                           
+                            
+                            
                             
                         </cmd>
                         <info>At this point, you can select the <b>Power on</b> check box to turn on the VM after deployment is
@@ -97,7 +97,7 @@
                         <info><b>Important: </b>If your IBM StoredIQ environment includes an Elasticsearch cluster, do not select this
                             option when you're deploying the data server OVA. The Elasticsearch cluster setup must be
                             complete before you run the data server first-boot process.</info>
-                     
+                        
                     </substep>
                 </substeps>
                 
@@ -116,11 +116,11 @@
                 <li>Application stack</li>
             </ol>
         </postreq>
-   
-  
-       
-          
-      
+        
+        
+        
+        
+        
     </taskbody>
-   
+    
 </task>

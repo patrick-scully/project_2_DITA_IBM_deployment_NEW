@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-   
+    
     <title>Deployment and configuration guide</title>
     <topicmeta>
         <prodinfo>
@@ -13,7 +13,7 @@
     <mapref importance="high" href="../deployment_and_configuration_guide/maps/secondmap_images.ditamap" format="ditamap"/>
     <mapref importance="high" href="../deployment_and_configuration_guide/maps/thirdmap_index.ditamap" format="ditamap"/>
     <topicref importance="high" href="topics/references/cover_page.dita"/>
-   
+    
     <topicref  importance="high" href="topics/concepts/about_this_publication.dita" collection-type="family">
         <topicref importance="high" href="topics/references/IBM_StoredIQ_product_library.dita"/>
         <topicref  importance="high" href="topics/tasks/contacting_IBM_StoredIQ_customer_support.dita"/>
@@ -42,16 +42,16 @@
             
         </relheader>
         <relrow>
-           <relcell>
-               <topicref href="topics/concepts/about_this_publication.dita"></topicref>
-           </relcell>
+            <relcell>
+                <topicref href="topics/concepts/about_this_publication.dita"></topicref>
+            </relcell>
             <relcell>
                 <topicref href="topics/references/IBM_StoredIQ_product_library.dita"></topicref>
             </relcell>
             <relcell>
                 <topicref href="topics/tasks/contacting_IBM_StoredIQ_customer_support.dita"></topicref>
             </relcell>
-                    </relrow>
+        </relrow>
         <relrow>
             <relcell>
                 <topicref href="topics/concepts/IBM_StoredIQ_components.dita"></topicref>
@@ -100,8 +100,8 @@
         </relrow>
     </reltable>
     
-
-
+    
+    
     <topichead importance="high" navtitle="Glossary">
         <topichead navtitle="A">
             <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Application_stack"></topicref>
@@ -118,7 +118,7 @@
         </topichead>
         <topichead navtitle="G">
             <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Gateway"></topicref>
-           
+            
         </topichead>
         <topichead navtitle="I">
             <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#IBM_StoredIQ_Insights"></topicref>

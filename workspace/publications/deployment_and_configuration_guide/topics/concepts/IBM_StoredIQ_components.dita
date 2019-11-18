@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="IBM_StoredIQ_components">
-   
-        <title>IBM StoredIQ components
+    
+    <title>IBM StoredIQ components
     </title>
     <shortdesc>The IBM StoredIQ solution consists of these components: the application stack, the gateway, the data
         server, and optionally the Elasticsearch cluster.
@@ -18,6 +18,6 @@
             <revised modified="18/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
         </critdates>
     </prolog>
-
-
+    
+    
 </concept>

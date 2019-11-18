@@ -18,17 +18,17 @@
     
     <refbody>
         
-       <section>
+        <section>
             <title>IBM StoredIQ Data Server</title>
             <p>IBM StoredIQ Data Server user interface provides access to data server functionality.
                 It allows administrators to view the dashboard and see the status of the jobs and
                 system details. Administrators can manage information about servers and conduct
                 various configurations on the system and application settings.</p>
             <image conkeyref="images/IBM_StoredIQ_Data_Server"/>
- </section>
-       
-      
-      
+        </section>
+        
+        
+        
         <section>
             <title>IBM StoredIQ Administrator</title>
             <p>IBM StoredIQ Administrator helps you manage global assets common to the distributed
@@ -73,9 +73,10 @@
                     upon the data that is represented by the indexes. Actions are run by data
                     servers on indexed data objects. Any errors or warnings that are generated as a
                     result of an action are recorded as exceptions in IBM StoredIQ Data Workbench.
-                        <note>Actions can be created within IBM StoredIQ Administrator and then made
+                    <note>Actions can be created within IBM StoredIQ Administrator and then made
                         available to other IBM StoredIQ applications such as IBM StoredIQ Data
-                        Workbench.</note></li>
+                        Workbench.</note>
+                </li>
                 <li><b>Managing target sets:</b>Provides an interface that allows the user to set
                     the wanted targets for specific actions that require a destination volume for
                     their actions.</li>
@@ -85,7 +86,7 @@
                     including Query Analysis Reports for e-discovery purposes, and automatically
                     email report notifictions to administrators and other interested parties.</li>
                 <li><b>Auto-classification:</b> Automated document categorization, what <apiname>IBM
-                        StoredIQ</apiname> refers to as auto-classification models, integrates the
+                    StoredIQ</apiname> refers to as auto-classification models, integrates the
                     IBM® Content Classification's classification model into the <apiname>IBM
                         StoredIQ</apiname> infoset-generation process. Data Experts can use IBM
                     Content Classification to train a classification model, which is then registered
@@ -102,17 +103,18 @@
                         cartridge, you must run a Step-up Analytics action that uses the cartridge
                         on an infoset. IBM StoredIQ examines all documents in the infoset, applies
                         the analytics, and then stores the analysis results in the IBM StoredIQ
-                        index</p>
-                </li>
+                        index.</p></li>
                 <li><b>Managing concepts:</b> Provides the ability to relate business concepts to
                     indexed data.</li>
                 <li><b>Managing Mule scripts:</b> Helps you to create Mule scripts and upload script
                     packages. These Mule scripts are used by IBM StoredIQ Policy Manager to create
                     policies using the automation workflow.</li>
-                <li><p id="DataServer_Classic:"><b> DataServer - Classic:</b> Data servers can be categorized in two types:
-                    DataServer - Classic and DataServer - Distributed. DataServer - Classic refers
-                    to the regular data servers. It uses either the current PostgreSQL or Lucene
-                    index as an index.</p> </li>
+                <li>
+                    <p><b> DataServer - Classic:</b> Data servers can be categorized in two types:
+                        DataServer - Classic and DataServer - Distributed. DataServer - Classic
+                        refers to the regular data servers. It uses either the current PostgreSQL or
+                        Lucene index as an index.</p>
+                </li>
                 <li><b>DataServer - Distributed:</b> The distributed data server uses an
                     Elasticsearch cluster instead of an embedded Postgres database. It increases the
                     scalability and flexibility of the IBM StoredIQ deployment in a way that it can
@@ -144,8 +146,7 @@
                 understanding of your company's data landscape, IBM StoredIQ Data Workbench helps
                 you take control of data. You can make informed decisions about your data and act on
                 that knowledge by copying, copying to retention, or conducting a discovery export. </p>
-            <p>Here are just some examples of how you can use IBM StoredIQ Data Workbench.</p>
-            <ul>
+            <p>Here are just some examples of how you can use IBM StoredIQ Data Workbench.</p><ul>
                 <li>You need to find all company email that is sent from or received by Eileen
                     Sideways (esideways@thecompany.com). You can use IBM StoredIQ Data Workbench to
                     find all email and then copy that data to a predefined repository. You can also
@@ -176,39 +177,35 @@
             <title>IBM StoredIQ Insights</title>
             <p>IBM StoredIQ Insights provides dynamic and interactive filtering for your data with
                 easy access to all metadata and instant plain-text preview of document content for
-                full-text indexed volumes.</p>
-            <p>Faceted search lets you drill down to refine your search results as needed. In
-                addition, you can apply any valid IBM StoredIQ filter query. Tags let you categorize
-                the data for easier management. Visual representations of search results help you
-                gain further insights into your data. Several chart types let you look at and
-                explore data from different perspectives, thus helping you identify patterns and
-                relationships very quickly.</p>
-            <p>With IBM StoredIQ Insights, you can search data that is managed and indexed by a data
-                server of the type DataServer - Distributed. In mixed deployments that have classic
-                and distributed data servers, only the content from distributed data servers will be
-                searchable.</p>
-            <image conkeyref="images/IBM_StoredIQ_Insights"/>
+                full-text indexed volumes.</p><p>Faceted search lets you drill down to refine your
+                    search results as needed. In addition, you can apply any valid IBM StoredIQ filter
+                    query. Tags let you categorize the data for easier management. Visual
+                    representations of search results help you gain further insights into your data.
+                    Several chart types let you look at and explore data from different perspectives,
+                    thus helping you identify patterns and relationships very quickly.</p>With IBM
+            StoredIQ Insights, you can search data that is managed and indexed by a data server of
+            the type DataServer - Distributed. In mixed deployments that have classic and
+            distributed data servers, only the content from distributed data servers will be
+            searchable. <image conkeyref="images/IBM_StoredIQ_Insights"/>
         </section>
         <section>
-            <title>IBM StoredIQ Policy Manager </title>
-            <p>IBM StoredIQ Policy Manager allows users to run mature policies and processes at
-                scale across a wider range of data.</p>
-            <image conkeyref="images/IBM_StoredIQ_Policy_Manager"/>
+            <title>IBM StoredIQ Policy Manager </title>IBM StoredIQ Policy Manager allows users to
+            run mature policies and processes at scale across a wider range of data. <image
+                conkeyref="images/IBM_StoredIQ_Policy_Manager"/>
             <p>The users can define and run systemwide policies, focusing on the execution of the
                 process rather than understanding or reviewing affected data objects. Additionally,
                 with reports of IBM StoredIQ Policy Manager, you can record what actions were
                 conducted, when they were conducted, and what data was affected by the policy's
-                execution.</p>
-        </section>
+                execution.</p></section>
         <section>
             <title>IBM StoredIQ Desktop Data Collector</title>
             <p>IBM StoredIQ Desktop Data Collector (also referred to as desktop client indexes desktops as volumes.
                 The volumes appear in IBM StoredIQ Data Server and in IBM StoredIQ Administrator, where they can be
                 used like any other data source.</p>
-               <p> The data server maintains an index using the information sent by the desktop client. After indexing,
+            <p> The data server maintains an index using the information sent by the desktop client. After indexing,
                 desktops - even offline or unreachable ones - can be viewed, searched, or targeted for later policy action.</p>
         </section>
         
-    
+        
     </refbody>
 </reference>

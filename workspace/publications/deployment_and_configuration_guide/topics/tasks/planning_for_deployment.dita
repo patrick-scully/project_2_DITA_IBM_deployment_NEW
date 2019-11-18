@@ -15,10 +15,10 @@
         </critdates>
     </prolog>
     <taskbody>
-       
+        
         <context>
-           
-                
+            
+            
             <p>In addition to the information in this section, review the requirements detailed in the IBM Software
                 Product Compatibility Reports (SPCR) tool at: <xref href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=CC1291B0F4AF11E3ACBD4447721DA353" format="html" scope="external">Software Product Compatibility Reports: StoredIQ 7.6</xref></p>
             <p>If you plan to use IBM StoredIQ for Legal Identification and Collection to create and manage data boxes
@@ -58,6 +58,6 @@
             
             
         </context>
-       
+        
     </taskbody>
 </task>

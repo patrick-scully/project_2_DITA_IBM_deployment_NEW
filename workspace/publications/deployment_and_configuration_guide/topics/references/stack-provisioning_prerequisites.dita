@@ -24,13 +24,13 @@
                 <li>IP addresses, cables, and physical switch ports for at least the ESXi/ESX interface, one data server, one
                     gateway server, and one application stack.</li>
                 <li>Network connectivity that is enabled from the following locations:
-                <sl>
-                    <sli>– The data server IP address to the gateway IP address on port 11103</sli>
-                    <sli>– The gateway IP address to and from the application stack IP address on port 8765 and 5432</sli>
-                    <sli>– Ports 80, 443, and 22 from the administrative workstation to the application stack and data server IP
-                        addresses</sli>
-                    <sli>– Port 22 from the administrative workstation to the gateway IP address.</sli>
-                </sl></li>
+                    <sl>
+                        <sli>– The data server IP address to the gateway IP address on port 11103</sli>
+                        <sli>– The gateway IP address to and from the application stack IP address on port 8765 and 5432</sli>
+                        <sli>– Ports 80, 443, and 22 from the administrative workstation to the application stack and data server IP
+                            addresses</sli>
+                        <sli>– Port 22 from the administrative workstation to the gateway IP address.</sli>
+                    </sl></li>
                 <li>Network connectivity that is enabled from the data server IP address to any data sources to be
                     harvested and managed.</li>
                 <li>A management station computer or notebook from where the load-management work is done.</li>
