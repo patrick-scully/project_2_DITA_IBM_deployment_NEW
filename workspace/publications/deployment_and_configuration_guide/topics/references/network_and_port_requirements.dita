@@ -49,7 +49,7 @@
                 communication and allows remote administration access to the VM. In general, traffic is encrypted using
                 password authentication. To add a layer of security, you can establish key-based authentication for
                 passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
-                <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">"configuring SSH key-based authentication” on page 45</xref>.</p>
+                <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">"configuring SSH key-based authentication” on page 45</xref>.</p>
             
             
             <table>
@@ -207,7 +207,7 @@
                                     port by either enabling Search
                                     Guard or by setting up a firewall.
                                     For more information, see
-                                    <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">“Securing Elasticsearch cluster
+                                    <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">“Securing Elasticsearch cluster
                                         communication with Search
                                         Guard” on page 51 or
                                         “Restricting access to port 9200

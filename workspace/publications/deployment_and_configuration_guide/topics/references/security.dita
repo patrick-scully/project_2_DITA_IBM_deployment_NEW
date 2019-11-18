@@ -39,14 +39,14 @@
             <p>In a production environment, you should configure or install certificates on the
                 AppStack to enable HTTPS communication and to enable encryption of data in motion
                 between the browser and the AppStack. You can to this during installation and
-                initial configuration or at any time afterward. For details, see <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">the instructions for configuring certificates</xref>.</p>
+                initial configuration or at any time afterward. For details, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">the instructions for configuring certificates</xref>.</p>
             <p>The gateway handles the communication between the data servers and the application
                 stack. By default, the communication between the gateway, any data servers, and the
                 AppStack is in plain text and is not encrypted. If your enterprise security policy
                 mandates encryption of data in motion, enable secure gateway communication. In this
                 case, secure gateway communication must be configured on all three p> IBM StoredIQ
                 components. You can enable secure gateway communication during installation and
-                initial configurtion or at any time afterward. For details, see <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">“Managing the status of secure gateway communication” on page
+                initial configurtion or at any time afterward. For details, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">“Managing the status of secure gateway communication” on page
                     54</xref>.</p>
             <p>IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
                 environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
@@ -54,9 +54,9 @@
                 communication between the data server and the Elasticsearch cluster.</p>
             <p>To secure the communication between the data server and the Elasticsearch cluster and the
                 communication within the Elasticsearch cluster likewise, you can enable Search Guard. For more
-                information, see <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">“Securing Elasticsearch cluster communication with Search Guard” on page 51</xref>. If you
+                information, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">“Securing Elasticsearch cluster communication with Search Guard” on page 51</xref>. If you
                 don't want to do that but still want to restrict client access to port 9200 on the Elasticsearch nodes, you
-                can set up the firewall accordingly. For more information, see <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">“Restricting access to port 9200 on
+                can set up the firewall accordingly. For more information, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">“Restricting access to port 9200 on
                     Elasticsearch nodes” on page 52</xref>.</p>
             <p> If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:</p>
             <p>
@@ -73,7 +73,7 @@
             </p>
             
             
-            <p>You can configure these cipher suites in the configurtion files listed in the <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">list of key and certificate files</xref>.
+            <p>You can configure these cipher suites in the configurtion files listed in the <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">list of key and certificate files</xref>.
                 However, if you run the utilities for enabling stunnel, you might need to make the respective configuration
                 changes again.</p>
         </section>
@@ -82,10 +82,10 @@
             <title>Encryption of data at rest</title>
             <p>Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the Elasticsearch indexes are
                 stored is encrypted by default. IBM StoredIQ uses Linux Unified Key Setup (LUKS) for disk encryption. For
-                details about key management, see <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">“Key and certificate management” on page 41</xref>.
+                details about key management, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">“Key and certificate management” on page 41</xref>.
             </p>
             <p>Optionally, you can encrypt the application data on the IBM StoredIQ application stack. For more
-                information, see <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">“Enabling encryption of IBM StoredIQ AppStack application data” on page 50</xref>.</p>
+                information, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">“Enabling encryption of IBM StoredIQ AppStack application data” on page 50</xref>.</p>
         </section>
         <section>
             <title>Network isolation</title>
@@ -100,7 +100,7 @@
         <section>
             <title>Access control</title>
             <p>The following administrative accounts are required. The builder and siqadmin accounts
-                are IBM StoredIQ-specific accounts. For more information about these accounts, see <xref href="../../resources/pdfs/IBMguide.pdf" format="pdf" scope="local">Default user accounts” on page 17</xref>.<parml>
+                are IBM StoredIQ-specific accounts. For more information about these accounts, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">Default user accounts” on page 17</xref>.<parml>
                     <plentry>
                         <pt>root and builder accounts on the Elasticsearch cluster nodes</pt>
                         <pd>Remote login for root can be disabled. However, local root login is
