@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="index_topic">
+    <title>Index</title>
+    <shortdesc>Index</shortdesc>
+    <prolog>
+        
+       
+           
+        
+        
+        
+        
+        <metadata>
+            <keywords id="index_entries">
+                <indexterm>IBM StoredIQ
+                    <index-see>
+                        Data Workbench
+                    </index-see>
+                </indexterm>
+                <indexterm>IBM StoredIQ
+                    <!-- nested index terms -->
+                    <indexterm>
+                        IBM StoredIQ Data Server
+                    </indexterm>
+                    
+                    <indexterm>
+                        IBM StoredIQ Administrator
+                    </indexterm>
+                    
+                    <indexterm>
+                        IBM StoredIQ Data Workbench
+                    </indexterm>
+                    
+                    <indexterm>
+                        IBM StoredIQ Insights
+                    </indexterm>
+                    
+                    <indexterm>
+                        IBM StoredIQ Policy Manager
+                    </indexterm>
+                    
+                    <indexterm>
+                        IBM StoredIQ Desktop Data Collector
+                    </indexterm>
+                </indexterm>
+                <!-- synonomous index terms -->
+                <indexterm>
+                    Harvesting
+                    <index-see>
+                        Indexing
+                    </index-see>
+                </indexterm>
+                
+                <indexterm>
+                     Indexing
+               </indexterm>
+                
+                <indexterm>
+                    Reports
+                    <index-see>
+                        Query Analysis Report
+                    </index-see>
+                </indexterm>
+                
+                <indexterm>
+                        Query Analysis Report
+                </indexterm>
+                
+                <indexterm>
+                    Categorization
+                    <index-see>
+                        Auto-classification
+                    </index-see>
+                </indexterm>
+                
+                <indexterm>
+                        Auto-classification
+                </indexterm>
+                
+                <indexterm>
+                    Cartridges
+                    <index-see>
+                        Analysis logic
+                    </index-see>
+                </indexterm>
+                
+                <indexterm>
+                        Analysis logic
+                </indexterm>
+                
+                <indexterm>
+                    PostgreSQL
+                    <index-see>
+                        Lucene
+                    </index-see>
+                </indexterm>
+                
+                <indexterm>
+                        Lucene
+                </indexterm>
+                
+                <!-- regular index terms -->
+                
+                <indexterm>
+                    Elasticsearch
+                </indexterm>
+                
+                <indexterm>
+                    Connector API SDK
+                </indexterm>
+                
+                <indexterm>
+                    infosets
+                </indexterm>
+                
+                <indexterm>
+                    e-discovery
+                </indexterm>
+                
+                <indexterm>
+                    IBM Content Classification
+                </indexterm>
+                
+                <indexterm>
+                    Mule script
+                </indexterm>
+                
+                <indexterm>
+                    Information Governance Catalog
+                </indexterm>
+                
+                <indexterm>
+                    Interface
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody> 
+        <section>
+        </section>
+    </refbody>
+</reference>

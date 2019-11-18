@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="image_usage">
+    <title>Images for use</title>
+    <shortdesc>These are the images to be used in the Deployment Guide</shortdesc>
+ 
+    
+    <refbody>
+       
+        
+        <section>
+           <title>IBM StoredIQ_administration</title>
+            <image id="IBM_StoredIQ_administration" href="../resources/images/IBM_StoredIQ_Administrator.jpg" width="760"  format="jpg" ></image>
+        </section>
+        
+        <section>
+            <title>IBM_StoredIQ_Data_Server</title>
+            <image id="IBM_StoredIQ_Data_Server" href="../resources/images/IBM_StoredIQ_Data_Server.jpg"  width="760"  format="jpg"></image>
+        </section>
+        
+        <section>
+            <title>IBM_StoredIQ_Data_Workbench</title>
+            <image id="IBM_StoredIQ_Data_Workbench" href="../resources/images/IBM_StoredIQ_Data_Workbench.jpg"  width="760"  format="jpg"></image>
+        </section>
+       
+        <section>
+            <title>IBM_StoredIQ_Insights</title>
+            <image id="IBM_StoredIQ_Insights" href="../resources/images/IBM_StoredIQ_Insights.jpg"  width="760"  format="jpg"></image>
+        </section>
+       
+        <section>
+            <title>IBM_StoredIQ_Policy_Manager</title>
+            <image id="IBM_StoredIQ_Policy_Manager" href="../resources/images/IBM_StoredIQ_Policy_Manager.jpg" width="760"  format="jpg" ></image>
+        </section>
+        
+        
+        
+    </refbody>
+</reference>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+
+<glossgroup id="IBM_glossary">
+    <title>Glossary</title>
+    <prolog>
+        <author>Patrick Scully</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>Copyright International Business Machines Corporation</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="15/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+            <revised modified="18/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+        </critdates>
+    </prolog>
+  
+    
+   
+    
+    <glossentry id="Application_stack">
+        <glossterm>Application stack</glossterm>
+        <glossdef>Set of applications required by an organisation</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                The set of applications typically required by an organization. A typical "enterprise" application stack would include the basic office functions (word processing, spreadsheet, database, etc.), as well as a Web browser and e-mail and instant messaging programs.</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    <glossentry id="Auto-classification">
+        <glossterm>Auto-classification</glossterm>
+        <glossdef>Automated document categorization</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                Automated document categorization, what IBM StoredIQ refers to as auto-classification models, integrates the IBM® Content Classification's classification model into the IBM
+                StoredIQ infoset-generation process. Data Experts can use IBM Content Classification to train a
+                classification model, which is then registered with IBM StoredIQ Administrator. The registered
+                classification model can be applied to an existing infoset in IBM StoredIQ Data Workbench to generate
+                new metadata for the objects in the infoset. Metadata can be used in rule-based filters to create new
+                infosets</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    <glossentry id="Cartridges">
+        <glossterm>Cartridges</glossterm>
+        <glossdef>Compressed fileles that contain analysis logic</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                Cartridges are compressed fileles that contain analysis logic. When you add a cartridge to
+                IBM StoredIQ AppStack, it can detect new data in documents during indexing and make these new
+                insights searchable. For example, a sensitive pattern cartridge can enable IBM StoredIQ to detect
+                passport numbers, phone numbers, and other IDs.</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    <glossentry id="Connector_API_SDK">
+        <glossterm>Connector API SDK</glossterm>
+        <glossdef>Used to connect to a
+            data source such as a network file system</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                A connector is a software component of IBM StoredIQ that is used to connect to a
+                data source such as a network file system and access its data. Using IBM StoredIQ Connector API SDK,
+                developers of other companies can develop connectors to new data sources outside the IBM StoredIQ
+                development environment. These connectors can be integrated with a live IBM StoredIQ application to
+                index, search, manage, and analyze data on the data source.</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    <glossentry id="DataServer_Classic">
+        <glossterm>DataServer - Classic</glossterm>
+        <glossdef>Regular data servers</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                Data servers can be categorized in two types: DataServer - Classic and
+                DataServer - Distributed. DataServer - Classic refers to the regular data servers. It uses either the
+                current PostgreSQL or Lucene index as an index.</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    <glossentry id="DataServer_Distributed">
+        <glossterm>DataServer - Distributed</glossterm>
+        <glossdef>Increases the scalability and flexibility of the IBM StoredIQ
+            deployment</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                The distributed data server uses an Elasticsearch cluster instead of an
+                embedded Postgres database. It increases the scalability and flexibility of the IBM StoredIQ
+                deployment in a way that it can manage much larger amounts of data. Without adding more data
+                servers, data that is managed by the IBM StoredIQ deployment can be increased by adding new nodes
+                to the Elasticsearch cluster. Search queries perform better on DataServer - Distributed.</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    <glossentry id="Data_servers">
+        <glossterm>Data servers</glossterm>
+        <glossdef>Platform that delivers database services</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                Data server is the phrase used to describe computer software and hardware (a database platform) that delivers database services. Also called a database server it also performs tasks such as data analysis, storage, data manipulation, archiving, and other tasks using client/server architecture.</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    <glossentry id="Gateway">
+        <glossterm>Gateway</glossterm>
+        <glossdef>Gateway routes traffic to outside network</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                In enterprises, the gateway is the computer that routes the traffic from a workstation to the outside network that is serving the Web pages. In homes, the gateway is the ISP that connects the user to the internet. In enterprises, the gateway node often acts as a proxy server and a firewall.
+            </glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+    
+    
+  
+    
+    <glossentry id="IBM_StoredIQ_Insights">
+        <glossterm>Connector API SDK</glossterm>
+        <glossdef>Provides dynamic and interactive filtering for your data</glossdef>
+        <glossBody>
+            <glossSurfaceForm>
+                IBM StoredIQ Insights provides dynamic and interactive filtering for your data with easy access to all
+                metadata and instant plain-text preview of document content for full-text indexed volumes.</glossSurfaceForm>
+        </glossBody>
+    </glossentry>
+    
+</glossgroup>

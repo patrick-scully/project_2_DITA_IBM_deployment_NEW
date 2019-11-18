@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="cover_page">
+    <title>Cover Page</title>
+    <shortdesc>This table lists the general information about he techniques used for linking and conditional processing and other objectives of the project. </shortdesc>
+    <prolog>
+        <author>Patrick Scully</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>Copyright International Business Machines Corporation</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="15/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+            <revised modified="18/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+        </critdates>
+    </prolog>
+
+   
+    <refbody> 
+        <section>
+         
+        
+        <table>
+            <tgroup cols="2">
+                <thead>
+                    <row rowsep="1">
+                        <entry colsep="1">Tasks</entry>
+                        <entry colsep="1">Details</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row rowsep="1">
+                        <entry colsep="1">Develop technical document</entry>
+                        <entry colsep="1">I have developed a technical document with sections described and include this cover page.</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">Information Types and elements</entry>
+                        <entry colsep="1">I have used a range of DITA information types in this project. I also included codeblocks, notes, tables and hazzardstatements where appropriate.</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">Hierarchial links</entry>
+                        <entry colsep="1">I have created hierarchial links using the DITA map and added collection-types of "family" with in. Each section and its children are linked using a relationship table within the main map.</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Cross references</entry>
+                        <entry colsep="1">I have cross referenced the original PDF document using conref on all occasions, used xref to all external webpages referenced and used conkeyref to add all images.</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Links to DITA and non-DITA resources</entry>
+                        <entry colsep="1">My linking includes links with DITA (conref, conkeyref, relationship tables) and non-DITA (local PDF and external weblinks) resources.</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Images</entry>
+                        <entry colsep="1">All images are referenced using conkeyref.</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Glossary</entry>
+                        <entry colsep="1">I have created a Glossary with the required terms alphabetically. The glossgroup is in alphabetical order itself and also recreated in the map file using topichead and the attribute navtitle.</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Index</entry>
+                        <entry colsep="1">I have created an index withg more than 20 terms. 6 terms have been nested and 5 more have synonymous index terms. The Index has been created using conkeyref. It has been added using metadata to the "About this publication" topic. </entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">Conditional Processing</entry>
+                        <entry colsep="1">I have created a conditional processing file called "filter-novice" and have added it to the profile settings. The devised schemes have multiple attributes. When turned on this filter will 
+                        <ol>
+                            <li>On the Open Virtual Applicance topic: Remove "Application Stack" section as it is set to "novice"</li>
+                            <li>On the Open Virtual Applicance topic: Include "Gateway" section as it is set to both "expert" and "novice"</li>
+                            <li>On the Open Virtual Applicance topic: Flag "DataServer - Classic" section as it has the attribute and value props="prop1"</li>
+                            <li>On the Open Virtual Applicance topic: Remove "DataServer - Distributed" section as it is set to "novice"</li>
+                            <li>On the Network and port requirements topic: Flag "You must enable network..." section as it has the attribute and value props="prop1"</li>
+                            <li>On the Environment sizing guidelines topic: Flag "The general design guidelines..." section as it has the attribute and value props="prop1"</li>
+                            <li>On the Security topic: Flag "Secure communication and encription..." section as it has the attribute and value props="prop1"</li>
+                            <li>On the Licence topic: Remove "Integration with IBM License Metric Tool" section as it is set to "novice"</li>
+                        </ol></entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">Metadata</entry>
+                        <entry colsep="1">Metadata has been used throughout using Author, Copyright and Critddates in all topics and Prodinfo and Prodname in all maps. </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        </section>
+        <section>
+            <table>
+                <tgroup cols="1">
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1"><p><b>Notice</b></p><p>Before using this information and the product it supports, read the information in <xref conref="network_and_port_requirements.dita#network_and_port_requirements/originalpdf">Notices</xref>.</p></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            
+            
+               
+        </section>
+        <section>
+            
+            <p>This edition applies to Version 7.6.0.19 of product number 5724M86 and to all subsequent releases and modifications
+                until otherwise indicated in new editions.</p>
+            <p><b>© Copyright International Business Machines Corporation 2001, 2019.</b></p>
+            <p>  US Government Users Restricted Rights – Use, duplication or disclosure restricted by GSA ADP Schedule Contract with
+                IBM Corp.</p>
+        </section>
+    </refbody>
+    
+</reference>

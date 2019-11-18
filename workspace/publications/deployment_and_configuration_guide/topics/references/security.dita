@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="security">
+    <title>Security</title>
+    <shortdesc>Plan and implement specific security measures to protect the application and the data
+        it manages, especially when you deploy IBM StoredIQ into sensitive environments. </shortdesc>
+    <prolog>
+        <author>Patrick Scully</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>Copyright International Business Machines Corporation</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="15/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+            <revised modified="18/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+        </critdates>
+    </prolog>
+    
+    <refbody> 
+        <section>
+                        <p>IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing.</p>
+        </section>
+        
+        <section>
+            <title>Federal Information Processing Standard (FIPS)</title>
+                   
+           
+                <p>FIPS is a standard recommended by the National Institute of Standards and
+                Technology (NIST) and the US Federal Government. It ensures certain security
+                standards are met for software or hardware components deployed at US government
+                sites. Enabling FIPS ensures that the SSL/TLS engine that is compliant with the US
+                Government recommendation is used. IBM StoredIQ supports FIPS Level 1.</p>
+                    <p>Secure gateway communication can be enabled without FIPS. If FIPS is enabled, IBM StoredIQ uses FIPS
+                        compliant versions of OpenSSL.</p>
+        </section>
+        <section audience="expert" importance="high" props="prop1">
+            <title>Secure communication and encryption of data in motion</title>
+           
+            <p>In a production environment, you should configure or install certificates on the
+                AppStack to enable HTTPS communication and to enable encryption of data in motion
+                between the browser and the AppStack. You can to this during installation and
+                initial configuration or at any time afterward. For details, see<xref
+                    href="../../resources/pdfs/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf"
+                    scope="local">the instructions for configuring certificates</xref>.</p>
+            <p>The gateway handles the communication between the data servers and the application
+                stack. By default, the communication between the gateway, any data servers, and the
+                AppStack is in plain text and is not encrypted. If your enterprise security policy
+                mandates encryption of data in motion, enable secure gateway communication. In this
+                case, secure gateway communication must be configured on all three p> IBM StoredIQ
+                components. You can enable secure gateway communication during installation and
+                initial configurtion or at any time afterward. For details, see <xref
+                    href="../../resources/pdfs/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf"
+                    scope="local">“Managing the status of secure gateway communication” on page
+                    54</xref>.</p>
+            <p>IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
+            environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
+            encrypt the communication between the nodes within the Elasticsearch cluster but not for encrypting the
+            communication between the data server and the Elasticsearch cluster.</p>
+            <p>To secure the communication between the data server and the Elasticsearch cluster and the
+            communication within the Elasticsearch cluster likewise, you can enable Search Guard. For more
+            information, see <xref conref="network_and_port_requirements.dita#network_and_port_requirements/originalpdf">“Securing Elasticsearch cluster communication with Search Guard” on page 51</xref>. If you
+            don't want to do that but still want to restrict client access to port 9200 on the Elasticsearch nodes, you
+            can set up the firewall accordingly. For more information, see <xref href="../../resources/pdfs/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="local">“Restricting access to port 9200 on
+                Elasticsearch nodes” on page 52</xref>.</p>
+           <p> If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:</p>
+           <p>
+             
+               <codeph>
+                         TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+            </codeph> 
+               
+           </p>
+          <p>
+            <codeph>
+                     TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+            </codeph>
+          </p>
+            
+            
+            <p>You can configure these cipher suites in the configurtion files listed in the <xref href="../../resources/pdfs/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="local">list of key and certificate files</xref>.
+            However, if you run the utilities for enabling stunnel, you might need to make the respective configuration
+            changes again.</p>
+        </section>
+        
+   <section>
+       <title>Encryption of data at rest</title>
+       <p>Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the Elasticsearch indexes are
+           stored is encrypted by default. IBM StoredIQ uses Linux Unified Key Setup (LUKS) for disk encryption. For
+           details about key management, see <!-- use conref -->“Key and certificate management” on page 41.
+       </p>
+       <p>Optionally, you can encrypt the application data on the IBM StoredIQ application stack. For more
+           information, see “Enabling encryption of IBM StoredIQ AppStack application data” <!-- conref -->on page 50.</p>
+   </section>
+        <section>
+            <title>Network isolation</title>
+            <p>If full-text harvesting and Step-up Analytics actions (cartridges) are applied, Elasticsearch indexes can
+                contain potentially sensitive content. Therefore, you should deploy the Elasticsearch nodes in an isolated
+                location on the network (for example, as an enclave or behind a firewall) that is properly secured
+                according to the sensitivity of the data being harvested. Only the IBM StoredIQ application stack and data
+                servers should be allowed to communicate with the Elasticsearch nodes.</p>
+               <p>Also, any data servers and the gateway should be deployed in an isolated network location to allow for
+                communication with authorized clients only.</p>
+        </section>
+        <section>
+            <title>Access control</title>
+            <p>The following administrative accounts are required. The builder and siqadmin accounts
+                are IBM StoredIQIspeci³c accounts. For more information about these accounts, see
+                
+            <!-- conref -->    “Default user accounts” on page 17. <parml>
+                    <plentry>
+                        <pt>root and builder accounts on the Elasticsearch cluster nodes</pt>
+                        <pd>Remote login for root can be disabled. However, local root login is
+                            required, either log in as root or use the <b>su</b> command to obtain
+                            root permissions temporarily. <p> You set the passwords for the root and
+                                builder accounts during the configuration process when you start the
+                                VM for the first time. You can change these passwords
+                            anytime.</p></pd>
+                    </plentry>
+                </parml>
+                <parml>
+                    <plentry>
+                        <pt>siqadmin account on the AppStack</pt>
+                        <pd>Administration of the AppStack usually does not require direct root
+                            access. For day-to-day administration, the siqadmin account can be used.
+                                <p>You set the password for the siqadmin account during the
+                                configuration process when you start the VM for the first time. You
+                                can change this password anytime.</p></pd>
+                    </plentry>
+                </parml>
+            </p>
+           
+            
+            
+           
+            
+        </section>
+        <section>
+            <title>Default user accounts</title>
+            <p>IBM StoredIQ comes with a set of default user accounts.</p>
+              <p>  For security reasons, change the passwords for these default accounts after the installation is complete
+                so that they are unique and different from the default values. The new password must be 8 to 64
+                characters long and must contain characters from at least three of these categories:
+                <ul>
+                    <li>Uppercase letters: A - Z
+                    </li>
+                    <li>Lowercase letters: a - z
+                    </li>
+                    <li>Digits: 0 - 9</li>
+                    <li>Punctuation marks or special characters: . : = * ˆ / $ # _ + @ &amp; %
+                        -</li>
+                    
+                </ul>
+              </p>
+        </section>
+        
+        <table>
+            <tgroup cols="3">
+                <thead>
+                    <row rowsep="1">
+                        <entry colsep="1">Account</entry>
+                        <entry colsep="1">Default password </entry>
+                       
+                        <entry colsep="1">Description </entry>
+                        
+                    </row>
+                </thead>
+                <tbody>
+                    <row rowsep="1">
+                        <entry colsep="1">admin</entry>
+                        <entry colsep="1">admin</entry>
+                            <entry colsep="1">Administrative account for accessing
+                            IBM StoredIQ Data Server. Use this
+                            account for the initial setup of the data
+                            server and to create further
+                            administrative accounts for routine
+                            administration.
+                            Change the password in IBM StoredIQ
+                            Data Server under <b>Administration &gt;
+                                Configuration &gt; Manage users.</b>
+                        </entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">audituser </entry>
+                        <entry colsep="1">Passw0rd! </entry>
+                        <entry colsep="1"><p>Account for accessing the audit
+                            database on the AppStack.</p>
+                            <p>Change the password by running the
+                                <b>change_audituser_password</b> script as
+                                siqadmin user on the AppStack.</p></entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">builder</entry>
+                        <entry colsep="1">None. Password is set during initial
+                            configuration</entry>
+                        <entry colsep="1">Account for setting up and con³guring the Elasticsearch
+                            cluster. <p>You can change the password by using the Linux <b>passwd</b>
+                                command.</p></entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">reportuser </entry>
+                        <entry colsep="1">St0red1q</entry>
+                        <entry colsep="1">Account for accessing the report
+                            database on the AppStack.
+                            <p>Change the password by running the
+                            change_reportuser_password script as
+                            siqadmin user on the AppStack.</p>
+                        </entry>
+                                      
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">siqadmin</entry>
+                        <entry colsep="1">Passw0rd!</entry>
+                        <entry colsep="1">Administrative account for managing the
+                            AppStack server. For more information,
+                            see the administration guide.
+                            <p>With new installations, you are
+                            prompted for a new password during the
+                            initial configuration of the AppStack. In
+                            updated deployments, change the
+                            password by using the Linux <b>passwd</b>
+                            command.</p></entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">superadmin </entry>
+                        <entry colsep="1">admin </entry>
+                        <entry colsep="1">Administrative account for accessing IBM StoredIQ
+                            Administrator and IBM StoredIQ Data Server. Use this account for the
+                            initial setup of IBM StoredIQ and to create further administrative
+                            accounts for routine administration so that their actions can be
+                            audited. <p>Change the password in IBM StoredIQ Administrator: go to<b>
+                                    Users</b> and edit the superadmin account.</p>The superadmin
+                            account has access to all IBM StoredIQ applications on the application
+                            stack. To switch applications, click the triangle arrow icon and select
+                            the application that you want to access from the list of the available
+                            applications.</entry>
+                    </row>
+                    
+                </tbody>
+            </tgroup>
+        </table>
+        
+    </refbody>
+</reference>

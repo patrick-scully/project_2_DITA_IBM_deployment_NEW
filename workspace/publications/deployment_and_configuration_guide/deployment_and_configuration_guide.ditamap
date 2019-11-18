@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   
+    <title>Deployment and configuration guide</title>
+    <topicmeta>
+        <prodinfo>
+            <prodname>IBM StoredIQ</prodname>
+        </prodinfo>
+    </topicmeta>
+    
+    
+    <mapref importance="high" href="../deployment_and_configuration_guide/maps/secondmap_images.ditamap" format="ditamap"/>
+    <mapref importance="high" href="../deployment_and_configuration_guide/maps/thirdmap_index.ditamap" format="ditamap"/>
+    <topicref importance="high" href="topics/references/cover_page.dita"/>
+   
+    <topicref  importance="high" href="topics/concepts/about_this_publication.dita" collection-type="family">
+        <topicref importance="high" href="topics/references/IBM_StoredIQ_product_library.dita"/>
+        <topicref  importance="high" href="topics/tasks/contacting_IBM_StoredIQ_customer_support.dita"/>
+    </topicref>
+    <topicref importance="high" href="topics/concepts/IBM_StoredIQ_components.dita" collection-type="family">
+        <topicref importance="high" href="topics/references/solution_components.dita"/>
+        <topicref importance="high" href="topics/references/applications_of_IBM_StoredIQ.dita"/>
+    </topicref>
+    <topicref importance="high" href="topics/tasks/planning_for_deployment.dita" collection-type="family">
+        <topicref
+            href="topics/references/open_virtual_appliance_OVA_configuration_requirements.dita"/>
+        <topicref importance="high" href="topics/references/network_and_port_requirements.dita"/>
+        <topicref importance="high" href="topics/references/environment_sizing_guidelines.dita"/>
+        <topicref importance="high" href="topics/references/stack-provisioning_prerequisites.dita"/>
+        <topicref importance="high" href="topics/references/license_usage_metrics.dita"/>
+        <topicref importance="high" href="topics/references/security.dita"/>
+    </topicref>
+    <topicref importance="high" href="topics/concepts/deployin_IBM_StoredIQ.dita" collection-type="family">
+        <topicref importance="high" href="topics/tasks/deploying_the_virtual_appliances.dita"/>
+        <topicref importance="high" href="topics/tasks/deploying_IBM_StoredIQ_on_Microsoft_Hyper-V.dita"/>
+    </topicref>
+    
+    <reltable importance="high">
+        <relheader>
+            <relcolspec></relcolspec>
+            
+        </relheader>
+        <relrow>
+           <relcell>
+               <topicref href="topics/concepts/about_this_publication.dita"></topicref>
+           </relcell>
+            <relcell>
+                <topicref href="topics/references/IBM_StoredIQ_product_library.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/tasks/contacting_IBM_StoredIQ_customer_support.dita"></topicref>
+            </relcell>
+                    </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="topics/concepts/IBM_StoredIQ_components.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/solution_components.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/applications_of_IBM_StoredIQ.dita"></topicref>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="topics/tasks/planning_for_deployment.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/open_virtual_appliance_OVA_configuration_requirements.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/network_and_port_requirements.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/environment_sizing_guidelines.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/stack-provisioning_prerequisites.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/license_usage_metrics.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/references/security.dita"></topicref>
+            </relcell>
+            
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="topics/concepts/deployin_IBM_StoredIQ.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/tasks/deploying_the_virtual_appliances.dita"></topicref>
+            </relcell>
+            <relcell>
+                <topicref href="topics/tasks/deploying_IBM_StoredIQ_on_Microsoft_Hyper-V.dita"></topicref>
+            </relcell>
+        </relrow>
+    </reltable>
+    
+
+
+    <topichead importance="high" navtitle="Glossary">
+        <topichead navtitle="A">
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Application_stack"></topicref>
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Auto-classification"></topicref>
+        </topichead>
+        <topichead navtitle="C">
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Cartridges"></topicref>
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Connector_API_SDK"></topicref>
+        </topichead>
+        <topichead navtitle="D">
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#DataServer_Classic"></topicref>
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#DataServer_Distributed"></topicref>
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Data_servers"></topicref>
+        </topichead>
+        <topichead navtitle="G">
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#Gateway"></topicref>
+           
+        </topichead>
+        <topichead navtitle="I">
+            <topicref href="../deployment_and_configuration_guide/topics/glossary/deployment_glossary.dita#IBM_StoredIQ_Insights"></topicref>
+            
+        </topichead>
+        
+    </topichead>
+</map>
+

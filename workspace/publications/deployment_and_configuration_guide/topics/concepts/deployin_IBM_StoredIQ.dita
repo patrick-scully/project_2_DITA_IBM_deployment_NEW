@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="deployin_IBM_StoredIQ">
+    <title>Deploying IBM StoredIQ
+    </title>
+    <shortdesc>IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual
+        host environment.</shortdesc>
+    <prolog>
+        <author>Patrick Scully</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>Copyright International Business Machines Corporation</copyrholder>
+        </copyright>
+        <critdates>
+            <created date="15/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+            <revised modified="18/11/2019" golive="26/11/2019" expiry="26/11/2021"/>
+        </critdates>
+    </prolog>
+
+</concept>
