@@ -174,7 +174,7 @@
             </step>
         </steps>
         
-        <postreq> Complete the installation process by following the instructions in<xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">"Conguring IBM
+        <postreq> Complete the installation process by following the instructions in <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">"Conguring IBM
             StoredIQ” on page 22</xref>.</postreq>
         
         

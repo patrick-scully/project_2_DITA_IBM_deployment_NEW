@@ -47,7 +47,7 @@
             
         </section>
         <section>
-            <title>Application stack</title>
+            <title conref="open_virtual_appliance_OVA_configuration_requirements.dita#open_virtual_appliance_OVA_configuration_requirements/app_stack"></title>
             <p>The application stack provides the user interface for the IBM StoredIQ Administrator, IBM StoredIQ
                 Data Workbench, IBM StoredIQ Insights, and the IBM StoredIQ Policy Manager products.</p>
             <p>The synchronization feature for integration with a governance catalog is also part of the application

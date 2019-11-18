@@ -100,7 +100,7 @@
         <section>
             <title>Access control</title>
             <p>The following administrative accounts are required. The builder and siqadmin accounts
-                are IBM StoredIQ-specific accounts. For more information about these accounts, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">Default user accounts” on page 17</xref>.<parml>
+                are IBM StoredIQ-specific accounts. For more information about these accounts, see <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">"Default user accounts” on page 17</xref>.<parml>
                     <plentry>
                         <pt>root and builder accounts on the Elasticsearch cluster nodes</pt>
                         <pd>Remote login for root can be disabled. However, local root login is

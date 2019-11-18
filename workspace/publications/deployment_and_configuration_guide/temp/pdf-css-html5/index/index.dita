@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\patscully\Dropbox\Current Working Clients\Information Designs & Development\project_2_ps\workspace\publications\deployment_and_configuration_guide\temp\pdf-css-html5\index?><?workdir-uri file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/temp/pdf-css-html5/index/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Reference//EN?><?doctype-system reference.dtd?><reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic       reference/reference " ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" id="index_topic" xtrc="reference:1;3:29" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">Index</title>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:16" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">Index</shortdesc>
+    <prolog class="- topic/prolog " xtrc="prolog:1;6:13" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+        
+        
+        
+        
+        
+        
+        
+        <metadata class="- topic/metadata " xtrc="metadata:1;14:19" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+            <keywords class="- topic/keywords " id="index_entries" xtrc="keywords:1;15:42" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                <indexterm class="- topic/indexterm " xtrc="indexterm:1;16:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">IBM StoredIQ
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrc="index-see:1;17:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        Data Workbench
+                    </index-see>
+                </indexterm>
+                <indexterm class="- topic/indexterm " xtrc="indexterm:2;21:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">IBM StoredIQ
+                    
+                    <indexterm class="- topic/indexterm " xtrc="indexterm:3;23:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        IBM StoredIQ Data Server
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrc="indexterm:4;27:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        IBM StoredIQ Administrator
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrc="indexterm:5;31:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        IBM StoredIQ Data Workbench
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrc="indexterm:6;35:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        IBM StoredIQ Insights
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrc="indexterm:7;39:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        IBM StoredIQ Policy Manager
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrc="indexterm:8;43:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        IBM StoredIQ Desktop Data Collector
+                    </indexterm>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:9;48:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Harvesting
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrc="index-see:2;50:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        Indexing
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:10;55:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Indexing
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:11;59:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Reports
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrc="index-see:3;61:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        Query Analysis Report
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:12;66:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Query Analysis Report
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:13;70:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Categorization
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrc="index-see:4;72:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        Auto-classification
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:14;77:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Auto-classification
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:15;81:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Cartridges
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrc="index-see:5;83:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        Analysis logic
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:16;88:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Analysis logic
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:17;92:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    PostgreSQL
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrc="index-see:6;94:32" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                        Lucene
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:18;99:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Lucene
+                </indexterm>
+                
+                
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:19;105:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Elasticsearch
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:20;109:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Connector API SDK
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:21;113:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    infosets
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:22;117:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    e-discovery
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:23;121:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    IBM Content Classification
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:24;125:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Mule script
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:25;129:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Information Governance Catalog
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrc="indexterm:26;133:28" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+                    Interface
+                </indexterm>
+            </keywords>
+        <prodinfo class="- topic/prodinfo " xtrc="prodinfo:1;7:19" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/deployment_and_configuration_guide.ditamap">
+            <prodname class="- topic/prodname " xtrc="prodname:1;8:23" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/deployment_and_configuration_guide.ditamap">IBM StoredIQ</prodname>
+        </prodinfo></metadata>
+    </prolog>
+    <refbody class="- topic/body        reference/refbody " xtrc="refbody:1;139:14" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita"> 
+        <section class="- topic/section " xtrc="section:1;140:18" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/index/index.dita">
+        </section>
+    </refbody>
+</reference>

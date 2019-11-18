@@ -52,7 +52,7 @@
                 <xref href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">"configuring SSH key-based authentication” on page 45</xref>.</p>
             
             
-            <table>
+            <table rowsep="1">
                 <title>Default open ports on the AppStack</title>
                 <tgroup cols="2">
                     <thead>

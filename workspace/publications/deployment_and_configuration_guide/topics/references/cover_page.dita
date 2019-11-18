@@ -50,7 +50,7 @@
                         
                         <row rowsep="1">
                             <entry colsep="1">Links to DITA and non-DITA resources</entry>
-                            <entry colsep="1">My linking includes links with DITA (conref, conkeyref, relationship tables) and non-DITA (local PDF and external weblinks) resources.</entry>
+                            <entry colsep="1">My linking includes links with DITA (conref, conkeyref, relationship tables) and non-DITA (local PDF and external weblinks) resources. A conref example can be seen on the <xref href="solution_components.dita">Solution Components</xref> topic using the title Application Stack as an example. </entry>
                         </row>
                         
                         <row rowsep="1">
@@ -71,20 +71,20 @@
                             <entry colsep="1">Conditional Processing</entry>
                             <entry colsep="1">I have created a conditional processing file called "filter-novice" and have added it to the profile settings. The devised schemes have multiple attributes. When turned on this filter will 
                                 <ol>
-                                    <li>On the Open Virtual Applicance topic: Remove "Application Stack" section as it is set to "novice"</li>
-                                    <li>On the Open Virtual Applicance topic: Include "Gateway" section as it is set to both "expert" and "novice"</li>
-                                    <li>On the Open Virtual Applicance topic: Flag "DataServer - Classic" section as it has the attribute and value props="prop1"</li>
-                                    <li>On the Open Virtual Applicance topic: Remove "DataServer - Distributed" section as it is set to "novice"</li>
-                                    <li>On the Network and port requirements topic: Flag "You must enable network..." section as it has the attribute and value props="prop1"</li>
-                                    <li>On the Environment sizing guidelines topic: Flag "The general design guidelines..." section as it has the attribute and value props="prop1"</li>
-                                    <li>On the Security topic: Flag "Secure communication and encription..." section as it has the attribute and value props="prop1"</li>
-                                    <li>On the Licence topic: Remove "Integration with IBM License Metric Tool" section as it is set to "novice"</li>
+                                    <li>On the <xref href="../references/open_virtual_appliance_OVA_configuration_requirements.dita">Open Virtual Applicance</xref>  topic: Remove "Application Stack" section as it is set to "novice"</li>
+                                    <li>On the <xref href="../references/open_virtual_appliance_OVA_configuration_requirements.dita">Open Virtual Applicance</xref> topic: Include "Gateway" section as it is set to both "expert" and "novice"</li>
+                                    <li>On the <xref href="../references/open_virtual_appliance_OVA_configuration_requirements.dita">Open Virtual Applicance</xref> topic: Flag "DataServer - Classic" section as it has the attribute and value props="prop1"</li>
+                                    <li>On the <xref href="../references/open_virtual_appliance_OVA_configuration_requirements.dita">Open Virtual Applicance</xref> topic: Remove "DataServer - Distributed" section as it is set to "novice"</li>
+                                    <li>On the <xref href="../references/network_and_port_requirements.dita">Network and port requirements</xref> topic: Flag "You must enable network..." section as it has the attribute and value props="prop1"</li>
+                                    <li>On the <xref href="../references/environment_sizing_guidelines.dita">Environment sizing guidelines</xref> topic: Flag "The general design guidelines..." section as it has the attribute and value props="prop1"</li>
+                                    <li>On the <xref href="../references/security.dita">Security</xref> topic: Flag "Secure communication and encription..." section as it has the attribute and value props="prop1"</li>
+                                    <li>On the <xref href="../references/license_usage_metrics.dita">Licence usage metrics</xref> topic: Remove "Integration with IBM License Metric Tool" section as it is set to "novice"</li>
                                 </ol>
                             The background colour on the flagged content is set to yellow.</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">Metadata</entry>
-                            <entry colsep="1">Metadata has been used throughout using Author, Copyright and Critddates in all topics and Prodinfo and Prodname in all maps. </entry>
+                            <entry colsep="1">Metadata has been used throughout using Author, Copyright and Critdates in all topics and Prodinfo and Prodname in all maps. </entry>
                         </row>
                     </tbody>
                 </tgroup>

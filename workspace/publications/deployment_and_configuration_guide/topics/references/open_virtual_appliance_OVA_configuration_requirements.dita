@@ -20,7 +20,7 @@
         
         
         <section id="application_stack" audience="novice" importance="low" >
-            <title>Application stack</title>
+            <title id="app_stack">Application stack</title>
             
             <ul>
                 <li>vCPU: 2</li>
