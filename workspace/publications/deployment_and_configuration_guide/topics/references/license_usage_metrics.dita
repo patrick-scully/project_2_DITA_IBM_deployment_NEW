@@ -48,7 +48,7 @@
             </codeblock>
         </section>
         
-        <section audience="novice" importance="low">
+        <section id="integration_IBM" audience="novice" importance="low">
             <p><b>Integration with IBM License Metric Tool</b> </p>
             
             <p>Versions of IBM License Metric Tool (ILMT) that support IBM Software License Metric

@@ -15,7 +15,7 @@
         </critdates>
     </prolog>
     <refbody> 
-        <section audience="expert" importance="high" props="prop1">
+        <section id="network_post" audience="expert" importance="high" props="prop1">
             <p>You must enable network connectivity from the following locations:
                 <ul>
                     <li>The data server IP address to the gateway IP address on port 11103

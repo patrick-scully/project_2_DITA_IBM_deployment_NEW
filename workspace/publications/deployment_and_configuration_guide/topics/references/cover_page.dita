@@ -31,7 +31,7 @@
                     <tbody>
                         <row rowsep="1">
                             <entry colsep="1">Develop technical document</entry>
-                            <entry colsep="1">I have developed a technical document with sections described and include this cover page.</entry>
+                            <entry colsep="1">I have developed a technical document with sections described and included this cover page.</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">Information Types and elements</entry>
@@ -39,7 +39,7 @@
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">Hierarchial links</entry>
-                            <entry colsep="1">I have created hierarchial links using the DITA map and added collection-types of "family" with in. Each section and its children are linked using a relationship table within the main map.</entry>
+                            <entry colsep="1">I have created hierarchial links using the DITA map and added collection-types of "family" within. Each section and its children are linked using a relationship table within the main map.</entry>
                         </row>
                         
                         <row rowsep="1">
@@ -79,7 +79,8 @@
                                     <li>On the Environment sizing guidelines topic: Flag "The general design guidelines..." section as it has the attribute and value props="prop1"</li>
                                     <li>On the Security topic: Flag "Secure communication and encription..." section as it has the attribute and value props="prop1"</li>
                                     <li>On the Licence topic: Remove "Integration with IBM License Metric Tool" section as it is set to "novice"</li>
-                                </ol></entry>
+                                </ol>
+                            The background colour on the flagged content is set to yellow.</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">Metadata</entry>
@@ -94,7 +95,7 @@
                 <tgroup cols="1">
                     <tbody>
                         <row rowsep="1">
-                            <entry colsep="1"><p><b>Notice</b></p><p>Before using this information and the product it supports, read the information in <xref conref="network_and_port_requirements.dita#network_and_port_requirements/originalpdf">Notices</xref>.</p></entry>
+                            <entry colsep="1"><p><b>Notice</b></p><p>Before using this information and the product it supports, read the information in <xref  href="https://www.ibm.com/support/pages/sites/default/files/inline-files/$FILE/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="external">Notices</xref>.</p></entry>
                         </row>
                     </tbody>
                 </tgroup>

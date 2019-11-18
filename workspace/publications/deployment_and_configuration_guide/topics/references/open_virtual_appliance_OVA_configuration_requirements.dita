@@ -19,7 +19,7 @@
     <refbody> 
         
         
-        <section audience="novice" importance="low" >
+        <section id="application_stack" audience="novice" importance="low" >
             <title>Application stack</title>
             
             <ul>
@@ -33,7 +33,7 @@
                 </li>
             </ul>
         </section>
-        <section audience="novice expert" importance="low" >
+        <section id="gateway_server" audience="novice expert" importance="low" >
             <title>Gateway server</title>
             <ul>
                 <li>vCPU: 4</li>
@@ -51,7 +51,7 @@
             </ul>
         </section>
         
-        <section audience="expert" importance="high" props="prop1">
+        <section id="dataserver_classic" audience="expert" importance="high" props="prop1">
             
             <title>DataServer - Classic</title>
             
@@ -112,7 +112,7 @@
                 with main write operations.</p>
             
         </section>
-        <section audience="novice" importance="low" >
+        <section id="dataserver_distributed" audience="novice" importance="low" >
             <title>DataServer - Distributed</title>
             <p>
                 <ul>
@@ -135,7 +135,7 @@
                 node. If you deploy a cluster with more nodes, each of the Elasticsearch nodes must meet the listed
                 requirements.</p>
         </section>
-        <section audience="novice" importance="low"  >
+        <section id="elasticsearch_node" audience="novice" importance="low"  >
             <title>Each Elasticsearch node
             </title>
             <p> <ul>

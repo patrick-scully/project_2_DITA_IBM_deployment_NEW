@@ -16,7 +16,7 @@
         </critdates>
     </prolog>
     <refbody>
-        <section audience="expert" importance="high" props="prop1">
+        <section id="general_design" audience="expert" importance="high" props="prop1">
             
             <p> The general design guidelines for IBM StoredIQ are as follows:
                 <ul>

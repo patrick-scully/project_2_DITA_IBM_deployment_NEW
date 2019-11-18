@@ -1,0 +1,420 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="DC.type" content="reference" /><meta name="description" content="For proper communication, the IBM StoredIQ components must be able to connect to each other." /><meta name="DC.relation" scheme="URI" content="../../topics/tasks/planning_for_deployment.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/open_virtual_appliance_OVA_configuration_requirements.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/environment_sizing_guidelines.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/stack-provisioning_prerequisites.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/license_usage_metrics.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/security.html" /><meta name="DC.relation" scheme="URI" content="../../topics/tasks/planning_for_deployment.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/open_virtual_appliance_OVA_configuration_requirements.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/environment_sizing_guidelines.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/stack-provisioning_prerequisites.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/license_usage_metrics.html" /><meta name="DC.relation" scheme="URI" content="../../topics/references/security.html" /><meta name="prodname" content="IBM StoredIQ" /><meta name="DC.creator" content="Patrick Scully" /><meta name="rights" content="© 2019 Copyright International Business Machines Corporation" /><meta name="DC.date.created" content="15/11/2019" /><meta name="DC.date.modified" content="18/11/2019" /><meta name="DC.date.issued" content="26/11/2019" /><meta name="DC.date.available" content="26/11/2019" /><meta name="DC.date.expiry" content="26/11/2021" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="network_and_port_requirements" />        
+      <title>Network and port requirements</title><!--  Generated with Oxygen version 21.1, build number 2019083011.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="network_and_port_requirements-d62e205" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2019083011" /><script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen.css?buildId=2019083011" /></head>
+
+    <body id="network_and_port_requirements" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Deployment and configuration guide</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="cover_page-d62e54-mi" data-tocid="cover_page-d62e54" data-state="leaf" class=" topicref " data-id="cover_page"><span class="title"><a href="../../topics/references/cover_page.html">Cover Page</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="about_this_publication-d62e72-mi" data-tocid="about_this_publication-d62e72" data-state="not-ready" class=" topicref " data-id="about_this_publication"><span class="title"><a href="../../topics/concepts/about_this_publication.html">About this publication</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="IBM_StoredIQ_components-d62e124-mi" data-tocid="IBM_StoredIQ_components-d62e124" data-state="not-ready" class=" topicref " data-id="IBM_StoredIQ_components"><span class="title"><a href="../../topics/concepts/IBM_StoredIQ_components.html">IBM StoredIQ components </a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="planning_for_deployment-d62e173-mi" data-tocid="planning_for_deployment-d62e173" data-state="not-ready" class=" topicref " data-id="planning_for_deployment"><span class="title"><a href="../../topics/tasks/planning_for_deployment.html">Planning for deployment</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="deployin_IBM_StoredIQ-d62e286-mi" data-tocid="deployin_IBM_StoredIQ-d62e286" data-state="not-ready" class=" topicref " data-id="deployin_IBM_StoredIQ"><span class="title"><a href="../../topics/concepts/deployin_IBM_StoredIQ.html">Deploying IBM StoredIQ </a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d62e599-mi" data-tocid="tocId-d62e599" data-state="not-ready" class=" topicref "><span class="title"><a href="../../topics/glossary/deployment_glossary.html#Application_stack">Glossary</a></span></span></li></ul></nav>
+                <div class=" wh_indexterms_link "><a href="../../indexTerms.html" title="Index" aria-label="Go to index terms page"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../../index.html"><span>Home</span></a></span></li><li><span class="topicref" data-id="planning_for_deployment"><span class="title"><a href="../../topics/tasks/planning_for_deployment.html">Planning for deployment</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.</p></span></span></span></li><li class="active"><span class="topicref" data-id="network_and_port_requirements"><span class="title"><a href="../../topics/references/network_and_port_requirements.html">Network and port requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">For proper communication, the IBM StoredIQ components must be able to connect to each other.</p></span></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="planning_for_deployment-d62e173" class="topicref" data-id="planning_for_deployment" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action planning_for_deployment-d62e173-link" class="wh-expand-btn"></span><span class="title"><a href="../../topics/tasks/planning_for_deployment.html" id="planning_for_deployment-d62e173-link">Planning for deployment</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.</p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="open_virtual_appliance_OVA_configuration_requirements-d62e189" class="topicref" data-id="open_virtual_appliance_OVA_configuration_requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/references/open_virtual_appliance_OVA_configuration_requirements.html" id="open_virtual_appliance_OVA_configuration_requirements-d62e189-link">Open Virtual Appliance (OVA) configuration requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0         (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a         virtual infrastructure that meets the IBM StoredIQ hardware requirements.</p></span></span></span></li><li role="treeitem" class="active"><span data-tocid="network_and_port_requirements-d62e205" class="topicref" data-id="network_and_port_requirements" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/references/network_and_port_requirements.html" id="network_and_port_requirements-d62e205-link">Network and port requirements</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">For proper communication, the IBM StoredIQ components must be able to connect to each other.</p></span></span></span></li><li role="treeitem"><span data-tocid="environment_sizing_guidelines-d62e221" class="topicref" data-id="environment_sizing_guidelines" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/references/environment_sizing_guidelines.html" id="environment_sizing_guidelines-d62e221-link">Environment sizing guidelines</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">To size an environment precisely, you must understand the factors such as harvest frequency, complexity         of the source, and use case scenarios that drive application use and action execution.</p></span></span></span></li><li role="treeitem"><span data-tocid="stack-provisioning_prerequisites-d62e237" class="topicref" data-id="stack-provisioning_prerequisites" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/references/stack-provisioning_prerequisites.html" id="stack-provisioning_prerequisites-d62e237-link">Stack-provisioning prerequisites</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Before a deployment, verify that you meet these prerequisites.</p></span></span></span></li><li role="treeitem"><span data-tocid="license_usage_metrics-d62e253" class="topicref" data-id="license_usage_metrics" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/references/license_usage_metrics.html" id="license_usage_metrics-d62e253-link">License usage metrics</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Using the IBM License Metric Tool, you can generate license consumption reports that count IBM         StoredIQ license usage</p></span></span></span></li><li role="treeitem"><span data-tocid="security-d62e269" class="topicref" data-id="security" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../topics/references/security.html" id="security-d62e269-link">Security</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Plan and implement specific security measures to protect the application and the data         it manages, especially when you deploy IBM StoredIQ into sensitive environments. </p></span></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Network and port requirements</h1>
+    
+    
+    <div class="body refbody"><p class="shortdesc">For proper communication, the IBM StoredIQ components must be able to connect to each other.</p> 
+        <section class="section">
+            <div class="p">You must enable network connectivity from the following locations:
+                <ul class="ul">
+                    <li class="li">The data server IP address to the gateway IP address on port 11103
+                    </li>
+                    <li class="li">The gateway IP address to and from the application stack IP address on port 8765 and 5432</li>
+                    <li class="li">Ports 80, 443, and 22 from the administrative workstation to the application stack and data server IP
+                        addresses</li>
+                    <li class="li">Port 22 from the administrative workstation to the gateway IP address</li>
+                </ul>
+            </div>
+            
+            
+        </section>
+        <section class="section"><h2 class="title sectiontitle">TCP: port ranges for the firewall</h2>
+            
+            <div class="p">To ensure the network access for desktop volumes, the following port ranges must be
+                open through a firewall.<ul class="ul">
+                    <li class="li">21000-21004 </li>
+                    <li class="li">21100-21101</li>
+                    <li class="li">21110-21130</li>
+                    <li class="li">21200-21204</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section"><h2 class="title sectiontitle">Default open ports</h2>
+            
+            
+            <p class="p">The following ports are open by default on the IBM StoredIQ.</p>
+            <p class="p"><strong class="ph b">SSH port 22</strong></p>
+            <p class="p">By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure Shell (SSH)
+                communication and allows remote administration access to the VM. In general, traffic is encrypted using
+                password authentication. To add a layer of security, you can establish key-based authentication for
+                passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
+                <a class="xref" href="../../resources/pdfs/IBMguide.pdf">"configuring SSH key-based authentication” on page 45</a>.</p>
+            
+            
+            <table class="table"><caption><span class="table--title-label">Table 1. </span><span class="title">Default open ports on the AppStack</span></caption><colgroup><col /><col /></colgroup><thead class="thead">
+                        <tr class="rowsep-1">
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__1">Port number</th>
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__2">Protocol
+                            </th>
+                        </tr>
+                    </thead><tbody class="tbody">
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__1 ">22</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__2 ">tcp</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__1 ">80</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__2 ">tcp</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__1 ">443</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__2 ">tcp</td>
+                        </tr>
+                    </tbody></table>
+            
+            <table class="table"><caption><span class="table--title-label">Table 2. </span><span class="title">Default open ports on the IBM StoredIQ data server</span></caption><colgroup><col /><col /><col /></colgroup><thead class="thead">
+                        <tr class="rowsep-1">
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__9">Port number</th>
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__10">Protocol
+                            </th>
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__11">Service
+                            </th>
+                        </tr>
+                    </thead><tbody class="tbody">
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__9 ">22</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__10 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__11 ">PROD-ssh</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__9 ">80</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__10 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__11 ">PROD-web</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__9 ">443</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__10 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__11 ">PROD-https (UI and Web
+                                Services APIs)
+                            </td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__9 ">11103</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__10 " rowspan="2">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__11 " rowspan="2">PROD-transport (IBM StoredIQ
+                                transport services;
+                                communication between the
+                                gateway and the data server)
+                            </td>
+                            
+                            
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__9 ">11104</td>
+                        </tr>
+                    </tbody></table>
+        </section>
+        <section class="section"><h2 class="title sectiontitle">Enable or disable ports or services on the IBM StoredIQ data server</h2>
+            
+            <p class="p">To manage ports, you can use the /usr/local/storediq/bin/util/port_handler.pyc script with
+                the appropriate parameter:
+            </p>
+            <pre class="pre msgblock">python /usr/local/storediq/bin/util/port_handler.pyc -parameter</pre>
+            <p class="p"><strong class="ph b">-s</strong></p>
+            <ul class="sl simple">
+                <li class="sli">To list the current rules in iptables</li>
+            </ul>
+            <p class="p"> <strong class="ph b">-l
+            </strong></p>
+            <ul class="sl simple">
+                <li class="sli">To list the supported services</li>
+            </ul>
+            <p class="p"><strong class="ph b">-d port_number|'port_range'</strong></p>
+            <ul class="sl simple">
+                <li class="sli">To delete a port or a range of port numbers from iptables, for example:</li>
+                
+            </ul>
+            <pre class="pre msgblock">python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'</pre>
+            <p class="p"><strong class="ph b">-e 'service_name'</strong></p>
+            <p class="p">To enable a specific service, for example, to enable HTTPS services: </p>
+            <pre class="pre msgblock">python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'</pre>
+            <p class="p"><strong class="ph b">-d 'service_name'</strong></p>
+            <p class="p">To disable a specific service, for example, to disable HTTPS services:</p>
+            <pre class="pre msgblock">python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'
+            </pre>
+            <table class="table"><caption><span class="table--title-label">Table 3. </span><span class="title">Default open ports on the nodes in the Elasticsearch cluster</span></caption><colgroup><col /><col /><col /></colgroup><thead class="thead">
+                        <tr class="rowsep-1">
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__25">Port number</th>
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__26">Protocol </th>
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__27">Service</th>
+                        </tr>
+                    </thead><tbody class="tbody">
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__25 ">21</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__26 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__27 ">ftp</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__25 ">22</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__26 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__27 ">sshd</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__25 ">80</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__26 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__27 "></td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__25 ">443</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__26 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__27 "></td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__25 ">8888</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__26 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__27 ">SimpleHTTPServer (used for
+                                copying the siqelasticsearch.yml
+                                configuration file from the
+                                Elasticsearch node to the data
+                                server)</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__25 ">9200</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__26 ">tcp6</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__27 ">
+                                <p class="p">docker-proxy (listening for REST
+                                    requests)</p>
+                                <p class="p">You can restrict access to this
+                                    port by either enabling Search
+                                    Guard or by setting up a firewall.
+                                    For more information, see
+                                    <a class="xref" href="../../resources/pdfs/IBMguide.pdf">“Securing Elasticsearch cluster
+                                        communication with Search
+                                        Guard” on page 51 or
+                                        “Restricting access to port 9200
+                                        on Elasticsearch nodes” on page
+                                        52.</a></p>
+                                
+                            </td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__25 ">9300</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__26 ">tcp6</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__27 ">docker-proxy (internode
+                                communication)
+                            </td>
+                        </tr>
+                    </tbody></table>
+            <table class="table"><caption><span class="table--title-label">Table 4. </span><span class="title">Default open ports on the IBM StoredIQ gateway </span></caption><colgroup><col /><col /><col /></colgroup><thead class="thead">
+                        <tr class="rowsep-1">
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__49">Port number</th>
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__50">Protocol</th>
+                            <th class="entry colsep-1" id="network_and_port_requirements__entry__51">Service
+                            </th>
+                        </tr>
+                    </thead><tbody class="tbody">
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">22</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__50 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__51 ">PROD-ssh
+                            </td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">80</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__50 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__51 ">PROD-web
+                            </td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">443</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__50 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__51 ">PROD-https (UI and Web
+                                Services APIs)</td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">5432</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__50 ">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__51 ">PROD-postgres
+                            </td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">5434</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__50 " rowspan="6">tcp</td>
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__51 " rowspan="6">PROD-transport (IBM StoredIQ
+                                transport services;
+                                communication between the
+                                gateway and the data server)
+                            </td>
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">8765</td>
+                            
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">7766</td>
+                            
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">11102</td>
+                            
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">11103</td>
+                            
+                        </tr>
+                        <tr class="rowsep-1">
+                            <td class="entry colsep-1" headers="network_and_port_requirements__entry__49 ">11104</td>
+                            
+                        </tr>
+                    </tbody></table>
+            
+            <p class="p"><strong class="ph b">Supported chain and rules on the IBM StoredIQ gateway
+            </strong></p>
+            <p class="p">In iptables, the following firewall and chain rules are defined:
+            </p>
+            <pre class="pre codeblock"><code>
+                'PROD-transport':['5434','8765','7766','11102','11103','11104'],
+                'PROD-https':['443'],
+                
+                'PROD-ssh':['22'],
+                'PROD-web':['80'],
+                'PROD-postgres':[’5432’]
+                'desktop' service:
+                'PROD-broker':['21000'],
+                'PROD-collectionsvc':['21300:21399'],
+                'PROD-desktopupgrade':['21004'],
+                'PROD-objlistmgr':['21100:21199'],
+                'PROD-objlistsvc':['21200:21299'],
+                'PROD-registration':['21001'],
+                'PROD-session':['21002'],
+                'PROD-task':['21003'],
+            </code></pre>
+            <p class="p"><strong class="ph b">Open ports for desktop client access to the data server</strong></p>
+            <p class="p">To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:</p>
+            <ol class="ol">
+                <li class="li">Log in to the data server as root and run this command:
+                    <pre class="pre msgblock">python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</pre>
+                </li>
+                <li class="li">Run this command: <code class="ph codeph">iptables -L INPUT</code><p class="p">In the output of the command, check the list position of the rule that is named <code class="ph codeph">PROD-reject,</code> for
+                    example, the <code class="ph codeph">6th</code> position on the list.</p></li>
+                <li class="li">Run this command: <code class="ph codeph">iptables -A INPUT -j PROD-reject</code>
+                </li>
+                <li class="li">Run this command:<code class="ph codeph">iptables -D INPUT <em class="ph i">list_position</em></code>
+                    <p class="p"><em class="ph i">list_position</em> is the position number of the PROD-reject rule that you determined in step 2.</p></li>
+                <li class="li">Run the following command:
+                    <pre class="pre msgblock">python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</pre>
+                </li>
+                
+            </ol>
+            <p class="p"><strong class="ph b">Tip:</strong> These steps are required only on an IBM StoredIQ OVA deployed system. The correct ports are open
+                on an upgraded system.</p>
+        </section>
+        
+        
+        
+        
+    </div>
+</article></main></div>
+                        
+                        <div class=" wh_related_links "><nav role="navigation" class="related-links"><div class="linklist relinfo reltasks"><strong>Related tasks</strong><br /><ul class="linklist related_link"><li class="linklist"><a class="navheader_parent_path" href="../../topics/tasks/planning_for_deployment.html" title="When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.">Planning for deployment</a></li></ul></div><div class="linklist relinfo relref"><strong>Related reference</strong><br /><ul class="linklist related_link"><li class="linklist"><a class="navheader_parent_path" href="../../topics/references/open_virtual_appliance_OVA_configuration_requirements.html" title="IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a virtual infrastructure that meets the IBM StoredIQ hardware requirements.">Open Virtual Appliance (OVA) configuration requirements</a></li><li class="linklist"><a class="navheader_parent_path" href="../../topics/references/environment_sizing_guidelines.html" title="To size an environment precisely, you must understand the factors such as harvest frequency, complexity of the source, and use case scenarios that drive application use and action execution.">Environment sizing guidelines</a></li><li class="linklist"><a class="navheader_parent_path" href="../../topics/references/stack-provisioning_prerequisites.html" title="Before a deployment, verify that you meet these prerequisites.">Stack-provisioning prerequisites</a></li><li class="linklist"><a class="navheader_parent_path" href="../../topics/references/license_usage_metrics.html" title="Using the IBM License Metric Tool, you can generate license consumption reports that count IBM StoredIQ license usage">License usage metrics</a></li><li class="linklist"><a class="navheader_parent_path" href="../../topics/references/security.html" title="Plan and implement specific security measures to protect the application and the data it manages, especially when you deploy IBM StoredIQ into sensitive environments.">Security</a></li></ul></div></nav></div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>
