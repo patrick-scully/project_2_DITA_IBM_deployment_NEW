@@ -1736,7 +1736,8 @@
                                                   css:display="block" css:link="#unique_27"
                                                   css:text-align-last="justify" href="#unique_27"
                                                   ><css:before css:display="inline"
-                                                  css:link="#unique_27"/>Connector API SDK<css:after
+                                                  css:link="#unique_27"
+                                                  />IBM_StoredIQ_Insights<css:after
                                                   css:display="inline" css:link="#unique_27"
                                                   ><css:leader pattern="."/><css:target-counter
                                                   url-fragment="unique_27"/></css:after></div>
@@ -11116,7 +11117,7 @@
                                                   css:page-break-after="avoid" id="ariaid-title29"
                                                   ><css:bookmark-label><css:content source="before"
                                                   /><css:content source="text"
-                                                  /></css:bookmark-label>Connector API SDK</h4>
+                                                  /></css:bookmark-label>IBM_StoredIQ_Insights</h4>
                                                 <div class="- topic/prolog prolog"
                                                   css:background-color="transparent"
                                                   css:border-bottom-style="none"

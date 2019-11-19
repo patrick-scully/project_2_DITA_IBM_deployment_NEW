@@ -75,7 +75,7 @@
             <prodname class="- topic/prodname ">IBM StoredIQ</prodname>
         </prodinfo></topicmeta></topicref></topichead><topichead class="+ map/topicref mapgroup-d/topichead " importance="high" navtitle="G"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d7e670">G</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_26" importance="high" type="glossentry"><topicmeta class="- map/topicmeta " data-topic-id="Gateway"><resourceid appid="Gateway" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_26" class="- topic/navtitle ">Gateway</navtitle><?ditaot gentext?><prodinfo class="- topic/prodinfo ">
             <prodname class="- topic/prodname ">IBM StoredIQ</prodname>
-        </prodinfo></topicmeta></topicref></topichead><topichead class="+ map/topicref mapgroup-d/topichead " importance="high" navtitle="I"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d7e684">I</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_27" importance="high" type="glossentry"><topicmeta class="- map/topicmeta " data-topic-id="IBM_StoredIQ_Insights"><resourceid appid="IBM_StoredIQ_Insights" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_27" class="- topic/navtitle ">Connector API SDK</navtitle><?ditaot gentext?><prodinfo class="- topic/prodinfo ">
+        </prodinfo></topicmeta></topicref></topichead><topichead class="+ map/topicref mapgroup-d/topichead " importance="high" navtitle="I"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d7e684">I</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_27" importance="high" type="glossentry"><topicmeta class="- map/topicmeta " data-topic-id="IBM_StoredIQ_Insights"><resourceid appid="IBM_StoredIQ_Insights" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_27" class="- topic/navtitle ">IBM_StoredIQ_Insights</navtitle><?ditaot gentext?><prodinfo class="- topic/prodinfo ">
             <prodname class="- topic/prodname ">IBM StoredIQ</prodname>
         </prodinfo></topicmeta></topicref></topichead></topichead>
 <topicref is-chapter="true" is-index="true" class="- map/topicref "><topicmeta class="- map/topicmeta "><navtitle href="#d30e5001" class="- topic/navtitle ">Index</navtitle></topicmeta></topicref></opentopic:map><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" class="- topic/topic       reference/reference " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="cover_page" oid="cover_page">
@@ -2155,7 +2155,7 @@
     
     
     <glossentry class="- topic/topic concept/concept glossentry/glossentry " id="unique_27" topicrefclass="- map/topicref " nd:nd-id="IBM_StoredIQ_Insights" oid="IBM_StoredIQ_Insights">
-        <glossterm class="- topic/title concept/title glossentry/glossterm ">Connector API SDK</glossterm>
+        <glossterm class="- topic/title concept/title glossentry/glossterm ">IBM_StoredIQ_Insights</glossterm>
         <glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">Provides dynamic and interactive filtering for your data</glossdef><prolog class="- topic/prolog "><metadata class="- topic/metadata "><prodinfo class="- topic/prodinfo ">
             <prodname class="- topic/prodname ">IBM StoredIQ</prodname>
         </prodinfo></metadata></prolog>

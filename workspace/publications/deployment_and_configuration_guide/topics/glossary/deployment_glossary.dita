@@ -116,7 +116,7 @@
     
     
     <glossentry id="IBM_StoredIQ_Insights">
-        <glossterm>Connector API SDK</glossterm>
+        <glossterm>IBM_StoredIQ_Insights</glossterm>
         <glossdef>Provides dynamic and interactive filtering for your data</glossdef>
         <glossBody>
             <glossSurfaceForm>
